@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    max-width: 100vw;
+    max-height: 100vh;
+
+}
+.midFlex{  display: flex;
+    width: 100vw;
+    height: 60vh;
+    
+}
+
+.parentFlex{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    
+
+}
+
+.childFlex{
+    display: flex;
+    border: 1px solid black;
+    justify-content: flex-end;
+
+}
+#uno{
+    width: 70vw;
+    height: 20vh;
+   background-color:#F0223B; 
+   display: flex; 
+   justify-content:flex-start;
+    
+
+}
+#dos{
+    width: 30vw;
+    height: 20vh;
+   background-color:#FA23A9; 
+   display: flex; 
+   justify-content:flex-end;
+    align-items:flex-end;
+
+}
+
+.midChild{
+    display: flex;
+    border: 1px solid black;
+    width: 100vw;
+    height: 60vh;
+    
+}
+#tres{
+    width: 100%;
+    height: 60vh;
+   background-color: #8D0E96; 
+   display: flex; 
+   justify-content:flex-start;
+    align-items: center;
+
+}
+#cuatro_1{
+    width: 100%;
+    height: 50%;
+   background-color:#14E3B5;
+   display: flex;
+   border-bottom: 1px solid black;
+   display: flex; 
+   justify-content: center;
+    align-items: center;
+}
+
+#cuatro_2{
+    width: 100%;
+    height: 50%;
+   background-color:#15967A; 
+   display: flex; 
+   justify-content: center;
+    align-items: center;
+
+}
+.midChild_2{
+    display: flex;
+    width: 100vw;
+    border: 1px solid black;
+    flex-direction: column;
+    
+}
+
+.parentFlexBot{
+    display: flex;
+    width: 100vw;
+    height: 20vh;
+    
+
+}
+
+.childFlexBot{
+    display: flex;
+    border: 1px solid black;
+    justify-content: flex-end;
+
+}
+#cinco{
+    
+   background-color: #D72BE3; 
+   display: flex;
+   width: 100%; 
+   justify-content: flex-end;
+    align-items: flex-start;
+
+}
+#seis{
+   background-color:#F34AFF; 
+   display: flex; 
+   width: 100%;
+   justify-content: flex-start;
+    align-items: flex-end;
+
+}
+#siete{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #7BE32B;
+}
+
+.parentFlexFoot{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    justify-content: space-between;
+}
