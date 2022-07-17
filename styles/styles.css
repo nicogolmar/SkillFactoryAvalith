@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "soehne-mono";
+  src: url(https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5e2d028f60dc1a9df8eca10d_soehne-mono-web-buch.woff2);
+}
+
+@font-face {
+  font-family: 'Pilat Compressed';
+  src: url(https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5e2d024586f41704061d8741_PilatCompressed-Heavy.woff2);
+
+}
+
+@font-face {
+  font-family: 'soehne log';
+  src: url(https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5e2d0290d2e0677e80ad7256_soehne-mono-web-halbfett.woff2);
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Soehne';
+  src: url(https://assets.website-files.com/5d7fff8297d2f2362bc02ca9/5e2d029086f417feb51d87d6_soehne-web-buch-kursiv.woff2);
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-overflow: clip;
+  
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.textH {
+  display: flex;
+  margin-right: 1%;
+  margin-top: 1%;
+  font-family: 'Soehne';
+  font-family: sans-serif;
+  font-size: 14px;
+  align-items: flex-end;
+  font-weight: 400;
+  font-display: swap;
+  
+}
+
+
+.head {
+  background-color: #41ead3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /*se debe hacer un script por pantalla*/
+  height: 5vh;
+  }
+
+.fuente {
+  font-family: "soehne-mono";
+  font-size: 16px;
+  text-decoration: none;
+  color:#001323;
+}
+
+.bold {
+  font-family: 'Pilat Compressed';
+  font-weight: bold;
+  font-size: 150%;
+  padding-right: 1px;
+  padding-right: 10px;
+}
+
+.learn {
+  display: flex;
+  padding-left: 30%;
+  margin-left: -30%;
+  margin-top: 10%;
+  color: #001323;
+  align-items: flex-end;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: -3%;
+  
+  
+}
+
+.nav {
+  display: flex;
+  padding: 1%;
+  margin-top: 0%;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  
+}
+
+.navPrincipal {
+  font-family: "prueba";
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25%;
+  margin-left: -25%;
+  
+}
+
+
+.boton {
+  display: flex;
+  width: 35%;
+  margin-left: 30%;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.btn-log {
+  font-family: 'soehne log';
+  font-size: 18px;
+  font-weight: 400;
+  margin-right: 35px;
+  color: #001323;
+  text-decoration: none;
+}
+
+.botGet {
+  font-family: 'Soehne log';
+  text-decoration: none;
+  font-size: 18 px;
+  padding: .5rem 1rem;
+  border: 2px solid #5840e0;
+  border-radius: 0;
+  background-color: transparent;
+  color: #5840e0;
+  font-weight: bold;
+  
+
+}
+
+.botGet:hover{
+  background-color: #5840e0;
+  color: white;
+
+}
+.textLeft {
+  width: 72%;
+  margin: 5px 0;
+  font-family: 'Soehne';
+  font-family: sans-serif;
+  color: #001323;
+  font-size: 5.5rem;
+  line-height: 90%;
+  font-weight: 400;
+  letter-spacing: -4px;
+  text-transform: uppercase;
+  text-size-adjust: 100%;
+ flex-wrap: wrap;
+}
+
+.imgV {
+  width: 60%;
+  justify-content: flex-end;
+  align-items: flex-start;
+  border-radius: 10px;
+  padding-top: 5%;
+  
+}
+
+
+.mid {
+  padding-top: 4%;
+  display: flex;
+  width: 100%;
+  
+}
+.parrafo{
+  font-size: 20px;
+    line-height: 32px;
+    width: 80%;
+      }
+.dParrafo{
+  display: flex;
+  width: 100%;
+    
+}
+.botGetToday{
+  display:flex;
+  font-family: 'Soehne log';
+  text-decoration: none;
+  margin-top: 3%;
+  margin-left: 0.5%;
+  font-size: 18 px;
+  padding: .5rem 1rem;
+  width: 15vw;
+  border: 2px solid #5840e0;
+  border-radius: 0;
+  background-color: transparent;
+  color: #5840e0;
+  font-weight: bold;
+  justify-content:flex-start;
+  align-items: flex-end;
+}
+
+.botInf{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width:20%;
+}
